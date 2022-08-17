@@ -16,22 +16,22 @@ const thoughtSchema = new Schema({
         type: String,
         required: true
     },
-    reactions:[{
+    reactions: [{
         type: Schema.Types.ObjectId,
         ref: 'Reaction'
-    }], 
+    }],
 
 },
     {
-        toJSON:{
-            virtuals:true,
+        toJSON: {
+            virtuals: true,
         }
     }
 );
 
 thoughtSchema.virtual('reactionCount').get(() => {
     return this.reactions.length;
-}) 
+})
 
 const Thought = model('Thought', thoughtSchema);
 
