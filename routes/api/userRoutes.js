@@ -2,6 +2,8 @@ const router = require('express').Router() // first call in express.Router()
 const {
     getUsers,
     getSingleUser,
+    addFriend,
+    removeFriend,
     createUser,
     updateUser,
     deleteUser,

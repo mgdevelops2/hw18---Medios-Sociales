@@ -5,7 +5,7 @@ module.exports = {
   getThoughts(req, res) {
     Thought.find()
       .then((thoughts) => res.json(thoughts))
-      .catch((err) => res.status(500).json(err));
+      .catch((err) => { console.log(err); res.status(500).json(err)});
   },
   // GET a thought
   getSingleThought(req, res) {
@@ -92,13 +92,13 @@ module.exports = {
           ? res.status(404).json({ message: 'No thought with this id!' })
           : res.json(thought)
       )
-      .catch((err) => res.status(500).json(err));
+      .catch((err) => { console.log(err); res.status(500).json(err)});
   },
   // Remove a thought reaction
   removeReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
-      { $pull: { reactions: { _id: req.params.reactionId } } },
+      { $pull: { reactions: { reactionId: req.params.reactionId } } },
       { runValidators: true, new: true }
     )
       .then((thought) =>
