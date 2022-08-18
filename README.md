@@ -1,5 +1,6 @@
-# HW18 - Social Network
-  
+# hw18---Medios-Sociales
+_________________________
+
   ## Description
 So we know SQL and how it functions, but what if we want to store unstructured data?
 well, that is where MongoDB comes in. - it is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. Because the foundation of social media applications is data, it is important that to understand how to build and structure the API first.
@@ -13,29 +14,44 @@ AS A social media startup we want to build an API for a social network that uses
 SO THAT my website can handle large amounts of unstructured data
 ```
 
-# Table of Contents
+  ## Table of Contents
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution Guidelines](#guidelines)
+  - [Test Instructions](#test)
+  - [License](#license)
+  - [Questions](#questions)
+
+  ## Installation
+
+  To install all dependencies, open your VS terminal at the root folder and run ```npm i ```. 
+
+  ## Usage
+
+  1. Once dependencies and database are installed, run ```npm start``` in the terminal. 
+  2. Open insomnia to run CRUD routes. 
+  3. Here is a walkthrough video:
   
-  * [Installation] (#Install)
-  * [howTo-Use] (#HowTo)
-  * [Contributions] (#Contributions)
-  * [reportIssues] (#ReportIssues)
+  ##### Walkthrough Video
 
 
-  ## Install
-  ```
-  Just fork the repo.
-  ```
 
-  ## HowTo-Use
-  ```
-  Once you fork the repo, run the index.js file using node. 
-  ```
+  ## Contribution Guidelines
 
-  ## Contributions
-  Fork the repo, add your new functionality, and then email me a link of the new repo and also a link to a video explaining your addition.
+Not taking Contributions Currently
 
-  ## ReportIssues
-  Take screenshots of your issue and email me a copy, with a description of what is happening and I will reply to your promptly w/ a solution or timeline for resolution. 
+  ## Test Instructions
 
+  This project does not include any tests.
+
+  ## License
+
+    License link for Apache:
+  https://opensource.org/licenses/Apache-2.0
+  
   ## Questions
-  If you have any questions about this repo, open an issue or contact me directly link @mikegonz0.dev@gmail.com. You can find more of my work at [mike-gonz0] https://github.com/mike-gonz0/.
+ To see more of my work, go to my GitHub repositories under the user name ```Mike-Gonz0```.
+  <br>
+  If you have any additional questions, please contact me directly at:  mikegonz0.dev@gmail.com
+  
