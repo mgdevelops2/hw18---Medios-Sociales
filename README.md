@@ -33,8 +33,8 @@ SO THAT my website can handle large amounts of unstructured data
   2. Open insomnia to run CRUD routes. 
   3. Here is a walkthrough video:
   
-  ##### Walkthrough Video
-
+  ## Walkthrough Video
+  https://www.youtube.com/watch?v=kbzG-qpy9_0
 
 
   ## Contribution Guidelines
@@ -49,6 +49,9 @@ Not taking Contributions Currently
 
     License link for Apache:
   https://opensource.org/licenses/Apache-2.0
+  
+  ## Video-WalkThrough
+  
   
   ## Questions
  To see more of my work, go to my GitHub repositories under the user name ```Mike-Gonz0```.
