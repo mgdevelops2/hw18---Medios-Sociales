@@ -2,17 +2,7 @@
 _________________________
 
   ## Description
-So we know SQL and how it functions, but what if we want to store unstructured data?
-well, that is where MongoDB comes in. - it is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. Because the foundation of social media applications is data, it is important that to understand how to build and structure the API first.
-
-The challenge we accepted is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the Express.js (Links to an external site.) and Mongoose (Links to an external site.) packages, you may also optionally use a JavaScript date library of your choice or the native JavaScript Date object to format timestamps.
-Because this application won’t be deployed, you’ll also need to create a walkthrough video and add it to our README.md
-
-```
-Basically think of the movie the social network, 
-AS A social media startup we want to build an API for a social network that uses a NoSQL database
-SO THAT my website can handle large amounts of unstructured data
-```
+A social media network that uses the NoSQL database in order to handle large amounts of unstructured data..
 
   ## Table of Contents
 
